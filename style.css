@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -76,6 +77,7 @@ body {
 }
 
 #header {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -144,7 +146,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     padding: 0 80px;
-    background-image: url("img/hero4.png");
+    background-image: url("img/ThanhChung/banner.jpg");
     width: 100%;
     height: 90vh;
     background-size: cover;
@@ -556,7 +558,7 @@ footer a:hover {
 /* Shop Page */
 
 #page-header {
-    height: 40vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1003,6 +1005,7 @@ footer a:hover {
     .section-p1 {
         padding: 40px;
     }
+
     #navbar {
         display: flex;
         flex-direction: column;
@@ -1018,23 +1021,29 @@ footer a:hover {
         transition: 0.3s;
         padding: 80px 0 0 10px;
     }
+
     #navbar li {
         margin-bottom: 25px;
     }
+
     #navbar.active {
         right: 0;
     }
+
     #mobile {
         display: flex;
     }
+
     #mobile i {
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
     }
+
     #bar {
         display: initial;
     }
+
     #close {
         display: initial;
         font-size: 24px;
@@ -1043,51 +1052,64 @@ footer a:hover {
         left: 30px;
         color: #222;
     }
+
     #lg-bag,
     #lg-search {
         display: none;
     }
+
     #hero {
         padding: 0 80px;
         height: 70vh;
         background-position: top 30% right 30%;
     }
+
     #feature {
         justify-content: center;
     }
+
     #feature .fe-box {
         margin: 15px;
     }
+
     #product1 .pro-container {
         justify-content: center;
     }
+
     #product1 .pro {
         margin: 15px;
     }
+
     #banner {
         height: 20vh;
     }
+
     #sm-banner .banner-box {
         min-width: 100%;
         height: 30vh;
         padding: 30px;
     }
+
     #banner3 {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 0 40px;
     }
+
     #banner3 .banner-box {
         width: 28%;
     }
+
     #newsletter .form {
         width: 70%;
     }
+
     /* Contact Page */
     #form-details {
         padding: 40px;
     }
+
     #form-details form {
         width: 50%;
     }
@@ -1097,123 +1119,157 @@ footer a:hover {
     .section-p1 {
         padding: 20px;
     }
+
     h1 {
         font-size: 38px;
     }
+
     h2 {
         font-size: 32px;
     }
+
     #header {
         padding: 10px 30px;
     }
+
     #hero {
         padding: 0 20px;
         height: 70vh;
         background-position: 55%;
     }
+
     #feature {
         justify-content: space-between;
     }
+
     #feature .fe-box {
         width: 155px;
         margin: 0 0 15px 0;
     }
+
     #product1 .pro {
         width: 100%;
     }
+
     #banner {
         height: 40vh;
     }
+
     #sm-banner .banner-box {
         height: 40vh;
     }
+
     #sm-banner .banner-box {
         margin-top: 20px;
     }
+
     #banner3 {
         padding: 0 20px;
     }
+
     #banner3 .banner-box {
         width: 100%;
     }
+
     #newsletter {
         padding: 40px 20px;
     }
+
     #newsletter .form {
         width: 100%;
     }
+
     footer .copyright {
         text-align: start;
     }
+
     /* Blog Page */
     #blog {
         padding: 100px 20px 20px 20px;
     }
+
     #blog .blog-box {
         flex-direction: column;
         align-items: flex-start;
     }
+
     #blog .blog-img {
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
     }
+
     #blog .blog-details {
         width: 100%;
     }
+
     #about-app .video {
         width: 100%;
     }
+
     /* About Page */
     #about-head {
         flex-direction: column;
     }
+
     #about-head img {
         width: 100%;
     }
+
     #about-head div {
         padding-top: 20px;
         padding-left: 0px;
     }
+
     /* Contact Page */
     #contact-details .details {
         width: 100%;
         padding-bottom: 30px;
     }
+
     #contact-details .map {
         width: 100%;
     }
+
     #contact-details {
         flex-wrap: wrap;
     }
+
     #form-details {
         margin: 10px;
         padding: 30px 10px;
         flex-wrap: wrap;
     }
+
     #form-details form {
         width: 100%;
         padding-bottom: 30px;
     }
+
     /* Cart Page */
     #cart-add {
         flex-direction: column;
     }
+
     #cuopon,
     #subtotal {
         width: 100%;
     }
+
     #subtotal {
         padding: 20px;
     }
+
     /* SIngle Product */
     #prodetails {
         flex-direction: column;
     }
+
     #prodetails .single-pro-image {
         width: 100%;
         margin-right: 0px;
     }
+
     #prodetails .single-pro-details {
         width: 100%;
         padding-top: 30px;

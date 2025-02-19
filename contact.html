@@ -8,6 +8,17 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <style>
+        .beautiful-text {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            letter-spacing: 2px;
+            margin: 20px;
+        }
+    </style>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,15 +26,13 @@
 <body>
 
     <section id="header">
-        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <p class="beautiful-text">Thanh Chung Support</p>
         <div>
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a class="active" href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i>Giỏ Hàng</a></li>
                 <a id="close" href="#"><i class="far fa-times"></i></a>
             </ul>
         </div>
@@ -31,134 +40,124 @@
             <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                padding: 20px;
+            }
+
+            /* Định dạng danh sách sản phẩm */
+            ul.product-list {
+                list-style: none;
+                /* Bỏ bullet mặc định */
+                padding: 0;
+                margin: 0;
+            }
+
+            ul.product-list li {
+                position: relative;
+                padding-left: 25px;
+                /* Dời nội dung sang phải để chừa chỗ cho icon */
+                margin-bottom: 10px;
+            }
+
+            ul.product-list li::before {
+                content: "✅";
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            /* Định dạng số điện thoại */
+            .phone {
+                font-weight: bold;
+                margin-top: 20px;
+            }
+        </style>
     </section>
 
     <section id="page-header" class="about-header">
-
-        <h2>#let's_talk</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you!</p>
-
+        <p>Quần áo, phụ kiện thể thao</p>
+        <p>Giày bóng đá sân cỏ</p>
+        <p>Cầu lông, bóng đá, cúp, huy chương …</p>
     </section>
 
     <section id="contact-details" class="section-p1">
         <div class="details">
-            <span>GET IN TOUCH</span>
+            <!-- <span>GET IN TOUCH</span>
             <h2>Visit one of our agency locations or contact us today</h2>
-            <h3>Head Office</h3>
+            <h3>Head Office</h3> -->
             <div>
                 <li>
                     <i class="fal fa-map"></i>
-                    <p>56 Glassford Street Glasgow G1 1UL New York</p>
+                    <p>Xóm Quán - Gio Linh - Quảng Trị </p>
                 </li>
                 <li>
                     <i class="far fa-envelope"></i>
-                    <p>contact@example.com </p>
+                    <p>lethanhloi22042001@gmail.com </p>
                 </li>
                 <li>
                     <i class="fas fa-phone-alt"></i>
-                    <p>contact@example.com </p>
+                    <p>0862208611</p>
                 </li>
                 <li>
                     <i class="far fa-clock"></i>
-                    <p>Monday to Saturday: 9.00am to 16.pm </p>
+                    <p>Thời Gian Mở Cửa </p>
                 </li>
             </div>
         </div>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8088025254456!2d-1.256555484681452!3d51.754819700404106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sbd!4v1637232208485!5m2!1sen!2sbd"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.9696855877664!2d107.0578729752676!3d16.976041383842702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3140c2fbfad2a967%3A0x35f0a9cb3a438407!2zUXXDoW4gQsOpIENo4buNaQ!5e0!3m2!1svi!2s!4v1739939099990!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
     <section id="form-details">
         <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you </h2>
-            <input type="text" name="" id="" placeholder="Your Name">
+            <span>Để Lại Thông Tin Để Chung Tôi Liên Hệ Nhé </span>
+            <input type="text" name="" id="" placeholder="Họ và Tên">
             <input type="text" name="" id="" placeholder="E-mail">
-            <input type="text" name="" id="" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button class="normal">Submit</button>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Bạn có muốn nói một ít gì về tôi không"></textarea>
+            <button class="normal">Gữi</button>
         </form>
 
         <div class="people">
             <div>
-                <img src="img/people/1.png" alt="">
-                <p><span>John Doe </span> Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br> Email: contact@example.com</p>
+                <img src="img/avatar1.jpg" alt="">
+                <p><span>Thành Chung </span> Quản Lí Cửa Hàng <br> Phone: + 0862208611 <br> Email:
+                    lethanhloi22042001@gmail.com</p>
             </div>
             <div>
-                <img src="img/people/2.png" alt="">
-                <p><span>William Smith</span> Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br> Email: contact@example.com</p>
+                <img src="img/avatar3.jpg" alt="">
+                <p><span>Phương Tá</span> Kế Toán <br> Phone: + 0862208611 <br> Email:
+                    lethanhloi22042001@gmail.com</p>
             </div>
             <div>
-                <img src="img/people/3.png" alt="">
-                <p><span>Emma Stone</span> Senior Marketing Manager <br> Phone: + 000 123 000 77 88 <br> Email: contact@example.com</p>
+                <img src="img/avatar2.jpg" alt="">
+                <p><span>Phan Nhật</span> Nhân viên <br> Phone: + 0862208611 <br> Email:
+                    lethanhloi22042001@gmail.com</p>
             </div>
         </div>
     </section>
 
-    <section id="newsletter" class="section-m1 section-p1">
+    <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
-            <h4>Sign Up For Newsletters </h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+            <h4>Lê Thanh Lợi </h4>
+            <p>Liên Hệ: <span> Email</span> lethanhloi22042001@gmail.com
+                <br>
+                <span style="margin-left: 64px;"> Phone</span> 0862208611
+            </p>
         </div>
         <div class="form">
-            <input type="text" name="" placeholder="Your email address" id="">
+            <input type="text" placeholder="Điền thông tin Email của bạn">
             <button class="normal">Sign Up</button>
         </div>
     </section>
-
-    <footer class="section-p1">
-        <div class="col">
-            <img class="logo" src="img/logo.png" alt="">
-            <h4>Contact</h4>
-            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
-            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
-            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
-            <div class="follow">
-                <h4>Follow Us</h4>
-                <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-pinterest-p"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <h4>About</h4>
-            <a href="#">About Us</a>
-            <a href="#">Delivery Information</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms & Conditions</a>
-            <a href="#">Contact Us</a>
-        </div>
-        <div class="col">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
-            <a href="#">Help</a>
-        </div>
-        <div class="col install">
-            <h4>Install App</h4>
-            <p>From App Store or Google Play </p>
-            <div class="row">
-                <img src="img/pay/app.jpg" alt="">
-                <img src="img/pay/play.jpg" alt="">
-            </div>
-            <p>Secured Payment Gateways </p>
-            <img src="img/pay/pay.png" alt="">
-        </div>
-
-        <div class="copyright">
-            <p>© 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
-        </div>
-    </footer>
-
 
     <script src="script.js"></script>
 
