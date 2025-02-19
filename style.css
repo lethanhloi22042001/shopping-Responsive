@@ -492,6 +492,9 @@ body {
 }
 
 footer {
+    position: relative;
+    position: sticky;
+    z-index: 999;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1273,5 +1276,74 @@ footer a:hover {
     #prodetails .single-pro-details {
         width: 100%;
         padding-top: 30px;
+    }
+}
+
+/* ZALO */
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    z-index: 9999;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.contain {
+
+    display: flex;
+    flex-direction: row;
+    /* Xếp nút theo cột (1 nút trên, 1 nút dưới) */
+    gap: 10px;
+    /* Khoảng cách giữa các nút */
+    z-index: 9999;
+    /* Trên tất cả các phần tử khác */
+
+}
+
+/* Style chung cho nút */
+.floating-buttons a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Màu sắc riêng cho từng nút */
+.btn-zalo {
+    background-color: #0191c8;
+    /* Màu của Zalo */
+}
+
+.btn-zalo:hover {
+    background-color: #007ea9;
+}
+
+.btn-call {
+    background-color: #ff5722;
+    /* Màu cho nút gọi */
+}
+
+.btn-call:hover {
+    background-color: #e64a19;
+}
+
+/* Đáp ứng (responsive) cho mobile: 
+   Giữ nguyên position: fixed, vì người dùng di chuyển vẫn thấy nút.
+   Có thể thu nhỏ padding nếu muốn. 
+*/
+@media (max-width: 768px) {
+    .floating-buttons a {
+        font-size: 14px;
+        padding: 10px 16px;
     }
 }
